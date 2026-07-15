@@ -20,4 +20,4 @@ void buscarLector();
 void editarLector();
 void eliminarLector();
 
-#endif // LECTRO_H
+#endif 
