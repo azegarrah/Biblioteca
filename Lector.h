@@ -11,13 +11,10 @@ struct Lector {
     string facultad;
 };
 
-extern Lector lectores[100];
-extern int cantLectores;
+void agregarLector(Lector lec[100], int&n);
+void mostrarLectores(Lector lec[100], int n);
+void buscarLector(Lector lec[100], int n);
+void editarLector(Lector lec[100], int n);
+void eliminarLector(Lector lec[100], int &n);
 
-void agregarLector();
-void mostrarLectores();
-void buscarLector();
-void editarLector();
-void eliminarLector();
-
-#endif // LECTRO_H
+#endif
