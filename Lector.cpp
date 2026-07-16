@@ -77,4 +77,5 @@ void eliminarLector(Lector lec[], int& n) {
             return;
         }
     }
+    cout << "Lector no encontrado." << endl;
 }
